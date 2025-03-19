@@ -8,6 +8,7 @@ The ToDo application is built using fundamental OOP principles. It includes clas
 
 ## Classes
 
+These classes forms the backbone of the application.
 ### Task
 - **Description**: Represents a single task in the ToDo application.
 - **Attributes**:
@@ -25,6 +26,9 @@ The ToDo application is built using fundamental OOP principles. It includes clas
   - `viewTasks()`: Displays all tasks with their status.
   - `markTaskAsCompleted(id)`: Marks a task as completed by its ID.
 
+📌 **Note**
+
+You can create other class and modify current classes to handle features to your liking
 ## Instructions
 
 1. **Clone the Repository**: Clone the repository to your local machine.
@@ -81,5 +85,18 @@ What task to remove:
 1. AOOP assignment
 
 Enter choice: 1
-Buy groceries task removed successfully!
+AOOP assignment task removed successfully!
+```
+### Marking task as completed
+```cmd
+Mark task as complete:
+1. Buy groceries
+2. AOOP assignment
+
+Enter choice: 2
+AOOP assignment tasked completed!
+```
+### Exiting app
+```cmd
+Goodbye!
 ```
