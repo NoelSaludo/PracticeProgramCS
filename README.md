@@ -32,14 +32,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-Each folder in this repository contains a different practice program. Follow the instructions in the respective folder's README file to run and test the program.
+Each folder in this repository contains a different practice program. Follow the instructions in the respective folder's README file to write the program.
 
-## Contributing
+### Writing the Projects
 
 Contributions are welcome! Please follow these steps to contribute:
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
+2. Create a new branch (`git checkout -b your-name-branch`)
 3. Make your changes
 4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
+5. Push to the branch (`git push origin your-name-branch`)
 6. Create a new Pull Request
