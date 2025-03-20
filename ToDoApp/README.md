@@ -1,14 +1,17 @@
 # ToDo Console Application
 
-This project is a simple console-based ToDo application designed to help you practice Object-Oriented Programming (OOP) concepts. The application allows users to manage their tasks by adding, viewing, and removing them.
-
+A client is asking you to create a simple ToDo application that
+can help them list and organize tasks.
 ## Description
 
-The ToDo application is built using fundamental OOP principles. It includes classes that represent the core components of the application, such as tasks and the task manager. The application provides a command-line interface for users to interact with their task list.
+The ToDo application is built using fundamental functional programming principles.
+It includes functions that represent the core components of the application, such as tasks and the task manager.
+The application provides a command-line interface for users to interact with their task list.
 
-## Classes
+## Functions
 
-These classes forms the backbone of the application.
+These functions form the backbone of the application. You can use this as the basis when writing the application.
+
 ### Task
 - **Description**: Represents a single task in the ToDo application.
 - **Attributes**:
@@ -16,25 +19,28 @@ These classes forms the backbone of the application.
   - `description`: A brief description of the task.
   - `isCompleted`: A boolean indicating whether the task is completed.
 
-### TaskManager
+### TaskManager Functions
 - **Description**: Manages the collection of tasks.
-- **Attributes**:
-  - `tasks`: A list of `Task` objects.
 - **Methods**:
   - `addTask(description)`: Adds a new task to the list.
   - `removeTask(id)`: Removes a task from the list by its ID.
   - `viewTasks()`: Displays all tasks with their status.
   - `markTaskAsCompleted(id)`: Marks a task as completed by its ID.
 
-📌 **Note**
+📌 **Note:** 
+You can create other functions and modify current functions to handle features to your liking.
 
-You can create other class and modify current classes to handle features to your liking
+
 ## Instructions
 
 1. **Clone the Repository**: Clone the repository to your local machine.
 2. **Navigate to the Project Directory**: Open a terminal and navigate to the `ToDoApp` directory.
-3. **Compile the Application**: Compile the application using your preferred compiler.
+3. **Write the Application**: Write the application using your preferred language.
 4. **Run the Application**: Execute the compiled application to start managing your tasks.
+
+## What to do
+Write a simple ToDo application using functional paradigm in any preferred programming language. 
+You can use the suggested functions as the basis when writing this program.
 
 ## Sample Application
 
@@ -95,8 +101,4 @@ Mark task as complete:
 
 Enter choice: 2
 AOOP assignment tasked completed!
-```
-### Exiting app
-```cmd
-Goodbye!
 ```
